@@ -51,7 +51,7 @@ const Waterfall = () => {
                         type: 'bar',
                     },
                 ]}
-                layout={ {xaxis: {type:'category'}, yaxis: {type: 'linear'}, title: 'Lung Expression'} }
+                layout={ {xaxis: {type:'category', title: lineage}, yaxis: {type: 'linear', title:'values'}, title: `${lineage} & ${gene_symbol} expressions`} }
             />
         </>
     )
